@@ -50,8 +50,14 @@ echo 'source ~/.vm.zsh' >> ~/.zshrc
 ## Version Manager Versions
 
 `vm.zsh` has been tested with the following version manager versions:
-* `nvm` - **v0.38.0**
-* `sdk` - **v5.11.6**
-* `pyenv` - **v2.0.2**
-* `g` - **v0.9.0**
-* `rvm` - **v1.29.12**
+* `nvm` - v0.38.0
+* `sdk` - v5.11.6
+* `pyenv` - v2.0.2
+* `g` - v0.9.0
+* `rvm` - v1.29.12
+
+## References
+
+These articles and examples were useful references when creating this script:
+* https://frederic-hemberger.de/notes/shell/speed-up-initial-zsh-startup-with-lazy-loading/
+* https://github.com/lukechilds/zsh-nvm/blob/23067bd9bb6eb6f4737a3ea90cb0cb5e85f61ba2/zsh-nvm.plugin.zsh#L5-L9
