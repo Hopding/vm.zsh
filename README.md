@@ -11,7 +11,7 @@ So why should you use `vm.zsh`?
 ## Install
 
 ```
-curl -o- https://raw.githubusercontent.com/Hopding/vm/master/vm.zsh > ~/.vm.zsh
+curl -o- https://raw.githubusercontent.com/Hopding/vm.zsh/master/vm.zsh > ~/.vm.zsh
 echo 'source ~/.vm.zsh' >> ~/.zshrc
 ```
 
@@ -46,3 +46,12 @@ echo 'source ~/.vm.zsh' >> ~/.zshrc
     gvm install list
     rvm uninstall ruby-2.7.2
 ```
+
+## Version Manager Versions
+
+`vm.zsh` has been tested with the following version manager versions:
+* `nvm` - **v0.38.0**
+* `sdk` - **v5.11.6**
+* `pyenv` - **v2.0.2**
+* `g` - **v0.9.0**
+* `rvm` - **v1.29.12**

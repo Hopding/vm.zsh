@@ -128,6 +128,9 @@ export GEM_HOME="$HOME/.rvm/gems/$default_ruby_version"
 export GEM_PATH="$HOME/.rvm/gems/$default_ruby_version:$GEM_PATH"
 export GEM_PATH="$HOME/.rvm/gems/$default_ruby_version@global:$GEM_PATH"
 
+# Other stuff has to go on PATH too... `rvm` doesn't always get to be first
+export rvm_silence_path_mismatch_check_flag=1
+
 # Lazy-loading wrapper/proxy of `rvm` that also enhances its CLI. 
 function rvm() {
   _rename_function rvm rvm_proxy
