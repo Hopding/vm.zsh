@@ -57,7 +57,7 @@ function _rename_function() {
   test -n "$(declare -f $1)" || return
 
   # Redefine the specified function, but replace the first occurence of 
-  # $1 with $2, thereby renaming it.
+  # $1 with $2, thereby renaming it. See https://unix.stackexchange.com/a/115452.
   eval "${_/$1/$2}"
 
   # Remove the function defined under the old name.
