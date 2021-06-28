@@ -1,7 +1,7 @@
 # `vm.zsh`
 
-Simpler runtime version management.
-
+> Better runtime version management
+ 
 Most language runtimes have version managers that allow you to install and switch between different runtime versions via the CLI. This is much more convenient than manually installing runtimes and is less likely to corrupt your system.
 
 So why should you use `vm.zsh`?
